@@ -1,0 +1,68 @@
+.Navbar{
+    // border:2px solid red;
+    background-color: var(--primary-text-color);
+    height:80px;
+    //  position : fixed;
+    top:0;
+    color:white;
+    text-transform: uppercase;
+    width:100%;
+   
+    .nav-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height:100%;
+        .nav-left{
+            
+            .link-group{
+                list-style: none;
+                display:flex;
+                gap:16px;
+                .link{
+                    display: inline-block;
+                    padding:10px;
+                    &:hover{
+                        border-radius: 10px;
+                        background-color: rgba(245, 245, 245, 0.388);
+                    }
+                }
+            }
+        }
+        .nav-centre{
+            position: absolute;
+            left:50%;
+            transform: translateX(-50%);
+            .banner{
+                
+                color: goldenrod;
+            }
+        }
+        .nav-right{
+            
+            .nav-cart{
+                padding: 10px;
+                position: relative;
+                
+                .icon{
+                    font-size: 1.5rem;
+                }
+                .cart-count{
+                    position: absolute;
+                    top:-4px;
+                    right:-4px;
+                    color:goldenrod;
+                    
+                    
+                }
+            }
+            &:hover{
+                background-color: rgba(235,235,235,0.388);
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+        
+    }
+    
+}

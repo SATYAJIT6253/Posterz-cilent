@@ -1,0 +1,20 @@
+.category{
+    background-image: url('../../assests/background.jpg');
+    background-position: center;
+    width:32%;
+    aspect-ratio: 16/9;
+    background-size: cover;
+   
+    cursor: pointer;
+    .content{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        box-shadow: 5px 5px 8px gainsboro, 10px 10px 8px red, 15px 15px 8px green;
+        h3{
+            font-size: 2rem;
+            
+                      
+        }
+    }
+}
